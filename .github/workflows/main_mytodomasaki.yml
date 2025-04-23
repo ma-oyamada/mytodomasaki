@@ -57,6 +57,6 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'mytodomasaki'
-          slot-name: 'Production'
+          slot-name: 'staging'
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2D520B82BB824521AE677B7D150F023E }}
